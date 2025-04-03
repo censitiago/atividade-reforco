@@ -12,7 +12,9 @@ class Revista implements MaterialLeitura {
     }
 
     exibirdetalhe(): void {
-        console.log(`Informaçoes Revista: titulo ${this.titulo} autor: ${this.autor} edicao: ${this.edicao}`)
+        console.log(`Informaçoes Revista: titulo ${this.titulo} autor: ${this.autor} edicao: ${this.edicao}`);
     }
-
 }
+const revista = new Revista("RollingStones", "Eu", 2025);
+revista.exibirdetalhe;
+
